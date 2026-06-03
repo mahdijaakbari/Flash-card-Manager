@@ -1,0 +1,7 @@
+
+# Für dieses Projekt werden keine externen Bibliotheken benötigt.
+# Die grafische Oberfläche verwendet tkinter.
+# tkinter ist normalerweise bereits in Python enthalten.
+
+# Benötigte Python-Version:
+# Python 3.x

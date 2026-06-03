@@ -1,0 +1,289 @@
+[
+    {
+        "question": "Was ist der bestimmte Artikel von 'Auto'?",
+        "answer": "das Auto",
+        "category": "Deutsch - Artikel",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist der bestimmte Artikel von 'Stra\u00c3\u0178e'?",
+        "answer": "die Stra\u00c3\u0178e",
+        "category": "Deutsch - Artikel",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist der bestimmte Artikel von 'Bahnhof'?",
+        "answer": "der Bahnhof",
+        "category": "Deutsch - Artikel",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Bilde den Satz mit 'weil': Ich lerne Deutsch. Ich m\u00c3\u00b6chte in Deutschland studieren.",
+        "answer": "Ich lerne Deutsch, weil ich in Deutschland studieren m\u00c3\u00b6chte.",
+        "category": "Deutsch - Grammatik",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Bilde den Satz mit 'obwohl': Es regnet. Ich gehe spazieren.",
+        "answer": "Ich gehe spazieren, obwohl es regnet.",
+        "category": "Deutsch - Grammatik",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist das Perfekt von 'gehen'?",
+        "answer": "ich bin gegangen",
+        "category": "Deutsch - Grammatik",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist das Perfekt von 'lernen'?",
+        "answer": "ich habe gelernt",
+        "category": "Deutsch - Grammatik",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist der Dativ von 'der Mann'?",
+        "answer": "dem Mann",
+        "category": "Deutsch - Grammatik",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet 'trotzdem' auf Englisch?",
+        "answer": "nevertheless / still / however",
+        "category": "Deutsch - Wortschatz",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet 'au\u00c3\u0178erdem' auf Englisch?",
+        "answer": "besides / moreover / also",
+        "category": "Deutsch - Wortschatz",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Wie sagt man h\u00c3\u00b6flich: I would like a coffee?",
+        "answer": "Ich h\u00c3\u00a4tte gern einen Kaffee.",
+        "category": "Deutsch - Alltag",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Wie beginnt man eine formelle E-Mail auf Deutsch?",
+        "answer": "Sehr geehrte Damen und Herren,",
+        "category": "Deutsch - Schreiben",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Wie beendet man eine formelle E-Mail auf Deutsch?",
+        "answer": "Mit freundlichen Gr\u00c3\u00bc\u00c3\u0178en",
+        "category": "Deutsch - Schreiben",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Welcher deutsche Fu\u00c3\u0178ballverein ist besonders bekannt aus M\u00c3\u00bcnchen?",
+        "answer": "FC Bayern M\u00c3\u00bcnchen",
+        "category": "Sport - Deutschland",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Welcher deutsche Fu\u00c3\u0178ballverein ist bekannt f\u00c3\u00bcr die gelbe Wand?",
+        "answer": "Borussia Dortmund",
+        "category": "Sport - Deutschland",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "In welcher Stadt spielt der Verein Borussia Dortmund?",
+        "answer": "Dortmund",
+        "category": "Sport - Deutschland",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Wie hei\u00c3\u0178t die h\u00c3\u00b6chste deutsche Fu\u00c3\u0178ballliga?",
+        "answer": "Bundesliga",
+        "category": "Sport - Deutschland",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Welche Farbe ist oft mit Borussia Dortmund verbunden?",
+        "answer": "Gelb und Schwarz",
+        "category": "Sport - Deutschland",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Welcher Verein spielt in der Allianz Arena?",
+        "answer": "FC Bayern M\u00c3\u00bcnchen",
+        "category": "Sport - Deutschland",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet ein rotes Ampellicht?",
+        "answer": "Man muss anhalten.",
+        "category": "Fahren - Regeln",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet ein gelbes Ampellicht?",
+        "answer": "Man muss anhalten, wenn es gefahrlos m\u00c3\u00b6glich ist.",
+        "category": "Fahren - Regeln",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was muss man vor dem Spurwechsel benutzen?",
+        "answer": "Den Blinker.",
+        "category": "Fahren - Regeln",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet ein Stoppschild?",
+        "answer": "Man muss vollst\u00c3\u00a4ndig anhalten.",
+        "category": "Fahren - Regeln",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Warum ist der Schulterblick beim Fahren wichtig?",
+        "answer": "Um den toten Winkel zu pr\u00c3\u00bcfen.",
+        "category": "Fahren - Sicherheit",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was sollte man bei Nebel einschalten?",
+        "answer": "Abblendlicht, und bei starkem Nebel Nebelscheinwerfer.",
+        "category": "Fahren - Sicherheit",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Welche deutsche Stadt ist bekannt f\u00c3\u00bcr das Brandenburger Tor?",
+        "answer": "Berlin",
+        "category": "Deutschland - Allgemeinwissen",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Welche deutsche Stadt ist bekannt f\u00c3\u00bcr den K\u00c3\u00b6lner Dom?",
+        "answer": "K\u00c3\u00b6ln",
+        "category": "Deutschland - Allgemeinwissen",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist ein typisches deutsches Verkehrsmittel in vielen St\u00c3\u00a4dten?",
+        "answer": "Die Stra\u00c3\u0178enbahn oder die U-Bahn.",
+        "category": "Deutschland - Alltag",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was sagt man in Deutschland oft vor dem Essen?",
+        "answer": "Guten Appetit!",
+        "category": "Deutschland - Alltag",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist in Deutschland beim Recycling sehr wichtig?",
+        "answer": "M\u00c3\u00bclltrennung.",
+        "category": "Deutschland - Alltag",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet WLAN auf Englisch?",
+        "answer": "Wi-Fi / wireless network",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist ein starkes Passwort?",
+        "answer": "Ein langes Passwort mit Buchstaben, Zahlen und Sonderzeichen.",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist Phishing?",
+        "answer": "Ein Betrugsversuch, um Passw\u00c3\u00b6rter oder pers\u00c3\u00b6nliche Daten zu stehlen.",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist Zwei-Faktor-Authentifizierung?",
+        "answer": "Ein zus\u00c3\u00a4tzlicher Schutz neben dem Passwort, zum Beispiel ein Code auf dem Handy.",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Warum sollte man Software-Updates installieren?",
+        "answer": "Sie schlie\u00c3\u0178en Sicherheitsl\u00c3\u00bccken und verbessern das System.",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist eine Firewall?",
+        "answer": "Ein Schutzsystem, das Netzwerkverkehr kontrolliert.",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was bedeutet HTTPS?",
+        "answer": "Eine sichere verschl\u00c3\u00bcsselte Verbindung zu einer Webseite.",
+        "category": "Cybersecurity - Basics",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Warum sollte man nicht auf unbekannte Links klicken?",
+        "answer": "Sie k\u00c3\u00b6nnen zu Betrug, Malware oder Phishing f\u00c3\u00bchren.",
+        "category": "Cybersecurity - Safety",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist Malware?",
+        "answer": "Sch\u00c3\u00a4dliche Software, zum Beispiel Viren oder Trojaner.",
+        "category": "Cybersecurity - Safety",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Was ist ein Backup?",
+        "answer": "Eine Sicherheitskopie von wichtigen Daten.",
+        "category": "Cybersecurity - Safety",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    },
+    {
+        "question": "Pr\u00e4teritum von \u201esein\u201c?",
+        "answer": "ich war",
+        "category": "Grammatik",
+        "correct_answers": 0,
+        "wrong_answers": 0
+    }
+]
