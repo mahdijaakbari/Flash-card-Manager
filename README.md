@@ -142,7 +142,12 @@ project/
 │   └── study.png
 │
 └── tests/
-    └── test_*.py
+    ├── test_flashcard.py
+    ├── test_manager.py
+    ├── test_project.py
+    ├── test_repetition.py
+    ├── test_statistics.py
+    └── test_storage.py
 ```
 
 ---
@@ -353,9 +358,21 @@ Eine Karte gilt als schwierig, wenn sie mehr falsche als richtige Antworten hat.
 
 ## 15. Tests
 
-Für das Projekt sollen automatisierte Tests mit `unittest` oder `pytest` geschrieben werden.
+Für das Projekt wurden automatisierte Tests mit `unittest` erstellt.
 
-Die Tests sollen zentrale Funktionen prüfen, zum Beispiel:
+Die Tests befinden sich im Ordner `tests/`:
+
+```text
+tests/
+├── test_flashcard.py
+├── test_manager.py
+├── test_project.py
+├── test_repetition.py
+├── test_statistics.py
+└── test_storage.py
+```
+
+Die Tests prüfen zentrale Funktionen, zum Beispiel:
 
 - Erstellen einer Lernkarte
 - Bearbeiten einer Lernkarte
@@ -368,17 +385,12 @@ Die Tests sollen zentrale Funktionen prüfen, zum Beispiel:
 - Verhalten bei leerer Kartensammlung
 - Verhalten bei nicht vorhandener Datei
 - Verhalten bei fehlerhafter JSON-Datei
+- Wiederholungslogik und Priorität der Karten
 
-Die Tests können zum Beispiel mit folgendem Befehl gestartet werden:
-
-```bash
-python -m unittest discover
-```
-
-oder, falls `pytest` verwendet wird:
+Die Tests können mit folgendem Befehl gestartet werden:
 
 ```bash
-pytest
+python -m unittest discover -s tests
 ```
 
 ---
