@@ -1,6 +1,6 @@
 import json
 from flashcard import Flashcard
-import os
+
 
 class Storage:
 
@@ -12,17 +12,24 @@ class Storage:
         data = [card.to_dict() for card in cards]
 
         # Öffnet die Datei im Schreibmodus und speichert die Daten
-        with open(filename, "w") as file:
-            json.dump(data, file, indent=4)
+        # UTF-8 ist wichtig für deutsche Sonderzeichen wie ä, ö, ü und ß
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
 
     # Lädt Karteikarten aus einer JSON-Datei
     @staticmethod
     def load_from_file(filename):
         try:
 
-            # Öffnet die Datei im Lesemodus.
-            with open(filename, "r") as file:
+            # Öffnet die Datei im Lesemodus
+            # UTF-8 verhindert falsche Zeichen wie ÃŸ oder Ã¼
+            with open(filename, "r", encoding="utf-8") as file:
                 data = json.load(file)
+
+            # Prüft, ob die Datei eine Liste enthält
+            if not isinstance(data, list):
+                print("Invalid file format.")
+                return []
 
             # Erstellt Flashcard-Objekte aus den geladenen Daten
             return [
@@ -38,4 +45,9 @@ class Storage:
         # Fehlerbehandlung für ungültige JSON-Dateien
         except json.JSONDecodeError:
             print("Invalid JSON file.")
+            return []
+
+        # Fehlerbehandlung für unvollständige oder falsche Daten
+        except (KeyError, TypeError, ValueError):
+            print("Invalid flashcard data.")
             return []

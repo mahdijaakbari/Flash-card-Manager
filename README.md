@@ -1,8 +1,13 @@
 # Lernkarten-Trainer
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-green)
+![Storage](https://img.shields.io/badge/Storage-JSON-orange)
+![Status](https://img.shields.io/badge/Status-Student%20Project-purple)
+
 ## 1. Projektbeschreibung
 
-Dieses Projekt ist ein einfacher Lernkarten-Trainer in Python.
+Dieses Projekt ist ein einfacher **Lernkarten-Trainer in Python**.
 
 Mit dem Programm können Lernkarten erstellt, gespeichert, geladen, bearbeitet und gelöscht werden. Außerdem kann eine Lernsession durchgeführt werden. Nach jeder Karte wird gespeichert, ob die Antwort richtig oder falsch war.
 
@@ -10,7 +15,57 @@ Das Programm besitzt eine einfache grafische Oberfläche mit Buttons. Dadurch ka
 
 ---
 
-## 2. Ziel des Projekts
+## 2. Vorschau der Oberfläche
+
+### Hauptmenü
+
+Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann jede Funktion direkt mit einem Button starten.
+
+![Hauptmenü](picture/menu.PNG)
+
+---
+
+### Karte hinzufügen
+
+Über dieses Fenster kann eine neue Lernkarte mit Frage, Antwort und Kategorie erstellt werden.
+
+![Karte hinzufügen](picture/add%20card.PNG)
+
+---
+
+### Alle Karten anzeigen
+
+Alle gespeicherten Lernkarten werden übersichtlich in einer Tabelle angezeigt.
+
+![Alle Karten](picture/all%20card.PNG)
+
+---
+
+### Karten nach Kategorie anzeigen
+
+Der Benutzer kann eine Kategorie eingeben und nur die passenden Lernkarten anzeigen lassen.
+
+![Karten nach Kategorie](picture/card%20by%20category.PNG)
+
+---
+
+### Lernsession
+
+In der Lernsession wird zuerst die Frage angezeigt. Danach kann der Benutzer die Antwort anzeigen lassen und entscheiden, ob seine Antwort richtig oder falsch war.
+
+![Lernsession](picture/study.PNG)
+
+---
+
+### Statistiken
+
+Das Statistikfenster zeigt wichtige Informationen über den Lernfortschritt, zum Beispiel die Anzahl der Karten, Erfolgsquoten und schwierige Karten.
+
+![Statistiken](picture/static.PNG)
+
+---
+
+## 3. Ziel des Projekts
 
 Ziel des Projekts ist die Entwicklung eines kleinen Python-Programms, das Lernkarten verwaltet und den Lernfortschritt speichert.
 
@@ -18,7 +73,7 @@ Das Projekt wurde so aufgebaut, dass wichtige Funktionen getrennt in Klassen org
 
 ---
 
-## 3. Funktionen des Programms
+## 4. Funktionen des Programms
 
 Das Programm bietet folgende Funktionen:
 
@@ -35,7 +90,7 @@ Das Programm bietet folgende Funktionen:
 
 ---
 
-## 4. Aufbau einer Lernkarte
+## 5. Aufbau einer Lernkarte
 
 Eine Lernkarte besteht aus folgenden Informationen:
 
@@ -49,9 +104,9 @@ Beispiel:
 
 ```json
 {
-    "question": "What is Python?",
-    "answer": "A programming language",
-    "category": "Programming",
+    "question": "Was ist Python?",
+    "answer": "Eine Programmiersprache",
+    "category": "Programmierung",
     "correct_answers": 2,
     "wrong_answers": 1
 }
@@ -59,7 +114,7 @@ Beispiel:
 
 ---
 
-## 5. Projektstruktur
+## 6. Projektstruktur
 
 Die Projektdateien sind ungefähr so aufgebaut:
 
@@ -78,13 +133,21 @@ project/
 ├── data/
 │   └── cards.json
 │
+├── picture/
+│   ├── add card.PNG
+│   ├── all card.PNG
+│   ├── card by category.PNG
+│   ├── menu.PNG
+│   ├── static.PNG
+│   └── study.PNG
+│
 └── tests/
     └── test_*.py
 ```
 
 ---
 
-## 6. Beschreibung der wichtigsten Dateien
+## 7. Beschreibung der wichtigsten Dateien
 
 ### `flashcard.py`
 
@@ -187,7 +250,7 @@ Der Benutzer kann über Buttons folgende Aktionen ausführen:
 
 ---
 
-## 7. Installation
+## 8. Installation
 
 Für dieses Projekt werden keine externen Bibliotheken benötigt.
 
@@ -201,7 +264,7 @@ Das Programm verwendet nur Standardbibliotheken von Python, zum Beispiel:
 
 ---
 
-## 8. Requirements
+## 9. Requirements
 
 In der Datei `requirements.txt` steht:
 
@@ -216,7 +279,7 @@ In der Datei `requirements.txt` steht:
 
 ---
 
-## 9. Programm starten
+## 10. Programm starten
 
 Das Programm wird mit folgendem Befehl gestartet:
 
@@ -228,7 +291,7 @@ Danach öffnet sich ein Fenster mit dem Menü des Lernkarten-Trainers.
 
 ---
 
-## 10. Daten speichern und laden
+## 11. Daten speichern und laden
 
 Die Lernkarten werden in folgender Datei gespeichert:
 
@@ -244,7 +307,7 @@ Falls der Ordner `data` noch nicht existiert, wird er automatisch erstellt.
 
 ---
 
-## 11. Lernsession
+## 12. Lernsession
 
 In der Lernsession werden die Karten nach ihrer Priorität sortiert.
 
@@ -256,7 +319,7 @@ Bei einer falschen Antwort wird der Wert `wrong_answers` erhöht.
 
 ---
 
-## 12. Wiederholungslogik
+## 13. Wiederholungslogik
 
 Die Priorität einer Karte wird mit einer einfachen Regel berechnet.
 
@@ -274,7 +337,7 @@ Dadurch werden schwierige Karten häufiger angezeigt.
 
 ---
 
-## 13. Statistiken
+## 14. Statistiken
 
 Das Programm zeigt verschiedene Statistiken an:
 
@@ -288,7 +351,7 @@ Eine Karte gilt als schwierig, wenn sie mehr falsche als richtige Antworten hat.
 
 ---
 
-## 14. Tests
+## 15. Tests
 
 Für das Projekt sollen automatisierte Tests mit `unittest` oder `pytest` geschrieben werden.
 
@@ -320,7 +383,7 @@ pytest
 
 ---
 
-## 15. KI-Einsatz
+## 16. KI-Einsatz
 
 Bei diesem Projekt wurde KI als Unterstützung verwendet.
 
@@ -355,7 +418,7 @@ Ein fehlerhafter oder unvollständiger Vorschlag musste angepasst werden, weil m
 
 ---
 
-## 16. Bekannte offene Punkte
+## 17. Bekannte offene Punkte
 
 Das Programm erfüllt die wichtigsten Anforderungen.
 
@@ -370,7 +433,7 @@ Mögliche Verbesserungen für die Zukunft wären:
 
 ---
 
-## 17. Fazit
+## 18. Fazit
 
 Der Lernkarten-Trainer ist ein kleines, aber vollständiges Python-Projekt.
 
