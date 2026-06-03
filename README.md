@@ -21,7 +21,7 @@ Das Programm besitzt eine einfache grafische Oberfläche mit Buttons. Dadurch ka
 
 Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann jede Funktion direkt mit einem Button starten.
 
-![Hauptmenü](picture/menu.PNG)
+![Hauptmenü](picture/menu.png)
 
 ---
 
@@ -29,7 +29,7 @@ Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann 
 
 Über dieses Fenster kann eine neue Lernkarte mit Frage, Antwort und Kategorie erstellt werden.
 
-![Karte hinzufügen](picture/add%20card.PNG)
+![Karte hinzufügen](picture/add_card.png)
 
 ---
 
@@ -37,7 +37,7 @@ Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann 
 
 Alle gespeicherten Lernkarten werden übersichtlich in einer Tabelle angezeigt.
 
-![Alle Karten](picture/all%20card.PNG)
+![Alle Karten](picture/all_cards.png)
 
 ---
 
@@ -45,7 +45,7 @@ Alle gespeicherten Lernkarten werden übersichtlich in einer Tabelle angezeigt.
 
 Der Benutzer kann eine Kategorie eingeben und nur die passenden Lernkarten anzeigen lassen.
 
-![Karten nach Kategorie](picture/card%20by%20category.PNG)
+![Karten nach Kategorie](picture/category_cards.png)
 
 ---
 
@@ -53,7 +53,7 @@ Der Benutzer kann eine Kategorie eingeben und nur die passenden Lernkarten anzei
 
 In der Lernsession wird zuerst die Frage angezeigt. Danach kann der Benutzer die Antwort anzeigen lassen und entscheiden, ob seine Antwort richtig oder falsch war.
 
-![Lernsession](picture/study.PNG)
+![Lernsession](picture/study.png)
 
 ---
 
@@ -61,7 +61,7 @@ In der Lernsession wird zuerst die Frage angezeigt. Danach kann der Benutzer die
 
 Das Statistikfenster zeigt wichtige Informationen über den Lernfortschritt, zum Beispiel die Anzahl der Karten, Erfolgsquoten und schwierige Karten.
 
-![Statistiken](picture/static.PNG)
+![Statistiken](picture/statistics.png)
 
 ---
 
@@ -134,12 +134,12 @@ project/
 │   └── cards.json
 │
 ├── picture/
-│   ├── add card.PNG
-│   ├── all card.PNG
-│   ├── card by category.PNG
-│   ├── menu.PNG
-│   ├── static.PNG
-│   └── study.PNG
+│   ├── add_card.png
+│   ├── all_cards.png
+│   ├── category_cards.png
+│   ├── menu.png
+│   ├── statistics.png
+│   └── study.png
 │
 └── tests/
     └── test_*.py
@@ -438,5 +438,3 @@ Mögliche Verbesserungen für die Zukunft wären:
 Der Lernkarten-Trainer ist ein kleines, aber vollständiges Python-Projekt.
 
 Das Programm kann Lernkarten verwalten, speichern, laden, abfragen und Statistiken anzeigen. Durch die grafische Oberfläche ist die Bedienung einfach und verständlich.
-
-Das Projekt zeigt außerdem, wie KI sinnvoll als Unterstützung bei Programmierung, Testen und Dokumentation verwendet werden kann.
