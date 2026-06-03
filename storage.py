@@ -28,7 +28,6 @@ class Storage:
 
             # Prüft, ob die Datei eine Liste enthält
             if not isinstance(data, list):
-                print("Invalid file format.")
                 return []
 
             # Erstellt Flashcard-Objekte aus den geladenen Daten
@@ -38,16 +37,16 @@ class Storage:
             ]
 
         # Fehlerbehandlung für nicht vorhandene Dateien
+        # Gibt eine leere Liste zurück, damit das Programm weiterlaufen kann
         except FileNotFoundError:
-            print("File not found.")
             return []
 
         # Fehlerbehandlung für ungültige JSON-Dateien
+        # Gibt eine leere Liste zurück, ohne eine Fehlermeldung im Test auszugeben
         except json.JSONDecodeError:
-            print("Invalid JSON file.")
             return []
 
         # Fehlerbehandlung für unvollständige oder falsche Daten
+        # Zum Beispiel wenn question, answer oder category fehlen
         except (KeyError, TypeError, ValueError):
-            print("Invalid flashcard data.")
             return []
