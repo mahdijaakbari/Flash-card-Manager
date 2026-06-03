@@ -383,56 +383,6 @@ pytest
 
 ---
 
-## 16. KI-Einsatz
-
-Bei diesem Projekt wurde KI als Unterstützung verwendet.
-
-Die KI wurde benutzt für:
-
-- Ideen zur Projektstruktur
-- Verbesserung einzelner Funktionen
-- Fehleranalyse
-- Vorschläge für Tests
-- Verbesserung der Dokumentation
-- Überarbeitung der grafischen Oberfläche
-
-Der Code wurde nicht einfach unkritisch übernommen. Die Funktionen wurden überprüft und an die Anforderungen des Projekts angepasst.
-
-Beispiele für Prompts:
-
-```text
-Kannst du prüfen, ob meine Flashcard-Klasse korrekt ist?
-```
-
-```text
-Kannst du mir helfen, eine einfache Wiederholungslogik zu schreiben?
-```
-
-```text
-Kannst du eine grafische Oberfläche mit tkinter für meinen Lernkarten-Trainer erstellen?
-```
-
-Ein hilfreicher Vorschlag der KI war die Idee, die Wiederholungslogik über eine Fehlerquote zu berechnen.
-
-Ein fehlerhafter oder unvollständiger Vorschlag musste angepasst werden, weil manche Funktionen zuerst nicht alle Anforderungen erfüllt haben, zum Beispiel das Bearbeiten und Löschen von Karten.
-
----
-
-## 17. Bekannte offene Punkte
-
-Das Programm erfüllt die wichtigsten Anforderungen.
-
-Mögliche Verbesserungen für die Zukunft wären:
-
-- Suchfunktion für Lernkarten
-- Export als CSV-Datei
-- Benutzerkonten
-- Schöneres Design der Oberfläche
-- Automatische Speicherung nach jeder Änderung
-- Mehr Einstellungen für die Lernsession
-
----
-
 ## 18. Fazit
 
 Der Lernkarten-Trainer ist ein kleines, aber vollständiges Python-Projekt.
