@@ -21,7 +21,7 @@ Das Programm besitzt eine einfache grafische Oberfläche mit Buttons. Dadurch ka
 
 Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann jede Funktion direkt mit einem Button starten.
 
-![Hauptmenü](picture/menu.png)
+![](https://codi.ide3.de/uploads/8d53e431-894e-4c20-8b9d-c20574a3a045.PNG)
 
 ---
 
@@ -29,7 +29,8 @@ Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann 
 
 Über dieses Fenster kann eine neue Lernkarte mit Frage, Antwort und Kategorie erstellt werden.
 
-![Karte hinzufügen](picture/add_card.png)
+![](https://codi.ide3.de/uploads/0fcbb396-17eb-479c-9577-10bec7e58c0b.PNG)
+
 
 ---
 
@@ -37,7 +38,8 @@ Das Hauptmenü zeigt alle wichtigen Funktionen des Programms. Der Benutzer kann 
 
 Alle gespeicherten Lernkarten werden übersichtlich in einer Tabelle angezeigt.
 
-![Alle Karten](picture/all_cards.png)
+![](https://codi.ide3.de/uploads/74fafac6-72d3-4337-a4ff-2e4bf2fdf112.PNG)
+
 
 ---
 
@@ -45,7 +47,8 @@ Alle gespeicherten Lernkarten werden übersichtlich in einer Tabelle angezeigt.
 
 Der Benutzer kann eine Kategorie eingeben und nur die passenden Lernkarten anzeigen lassen.
 
-![Karten nach Kategorie](picture/category_cards.png)
+![](https://codi.ide3.de/uploads/c690b1b5-d8d0-4228-bd4f-ffd496eafdae.PNG)
+
 
 ---
 
@@ -53,7 +56,8 @@ Der Benutzer kann eine Kategorie eingeben und nur die passenden Lernkarten anzei
 
 In der Lernsession wird zuerst die Frage angezeigt. Danach kann der Benutzer die Antwort anzeigen lassen und entscheiden, ob seine Antwort richtig oder falsch war.
 
-![Lernsession](picture/study.png)
+![](https://codi.ide3.de/uploads/d69f82e3-8fe0-4e80-9398-8d573db6aa30.PNG)
+
 
 ---
 
@@ -61,7 +65,8 @@ In der Lernsession wird zuerst die Frage angezeigt. Danach kann der Benutzer die
 
 Das Statistikfenster zeigt wichtige Informationen über den Lernfortschritt, zum Beispiel die Anzahl der Karten, Erfolgsquoten und schwierige Karten.
 
-![Statistiken](picture/statistics.png)
+![](https://codi.ide3.de/uploads/b58f9e39-da54-45bb-aeb2-c138f6ff264a.PNG)
+
 
 ---
 
@@ -400,3 +405,4 @@ python -m unittest discover -s tests
 Der Lernkarten-Trainer ist ein kleines, aber vollständiges Python-Projekt.
 
 Das Programm kann Lernkarten verwalten, speichern, laden, abfragen und Statistiken anzeigen. Durch die grafische Oberfläche ist die Bedienung einfach und verständlich.
+![](https://)![](https://codi.ide3.de/uploads/9475b89e-35ae-4001-8c94-75588fa162bc.PNG)
